@@ -1,10 +1,10 @@
 import { Router } from 'express';
-import hyperPay from './hyperSplit';
+import hyperSplit from './hyperSplit';
 const baseRouter = Router();
 console.log("enter1")
 
 // Setup routers
-baseRouter.use('/hyperSplit', hyperPay);
+baseRouter.use('/hyperSplit', hyperSplit);
 
 
 // Export default.

@@ -1,7 +1,7 @@
-## HyperPay using TypeScript
+## HyperSplit using TypeScript
 
 ## Introduction
-    HyperPay in node js. HyperPay using TypeScript. We have provide hyperpay payment api like- checkout api,verify api and refund api
+    HyperSplit in node js. HyperSplit using TypeScript. We have provide hyperSplit payout api like- Payout in bank api.
 
 ## Setup Steps:
 `npm install`
@@ -13,11 +13,5 @@
 `node dist/index.js`
 
 ## Hyperpay payment apis - 
-  #### Checkout api for normal/ApplePay checkout
-  `{{Your Ip}}/api/v1/hyperPay/NormalCheckout`
-
-  #### Hyperpay payment verify api
-  `{{Your Ip}}/api/v1/hyperPay/verifypayment`
-
-  #### Hyperpay refund api
-  `{{Your Ip}}/api/v1/hyperPay/refundPayment`
+  #### HyperSplit payout api for payout in bank
+  `{{Your Ip}}/api/v1/hyperSplit/PayOut`
